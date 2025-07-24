@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <CodeGen plane="mgmt-plane">
-  <resource id="/subscriptions/{}/daniel/hello" version="2025-07-24" swagger="mgmt-plane/keyvault/ResourceProviders/Microsoft.KeyVault/Paths/L3N1YnNjcmlwdGlvbnMve3N1YnNjcmlwdGlvbklkfS9kYW5pZWwvaGVsbG8=/V/MjAyNS0wNy0yNA=="/>
+  <resource id="/subscriptions/{}/daniel/hello" version="2025-04-01" swagger="mgmt-plane/keyvault/ResourceProviders/Microsoft.KeyVault/Paths/L3N1YnNjcmlwdGlvbnMve3N1YnNjcmlwdGlvbklkfS9kYW5pZWwvaGVsbG8=/V/MjAyNS0wNC0wMQ=="/>
   <commandGroup name="key-vault daniel hello">
-    <command name="show" version="2025-07-24">
-      <resource id="/subscriptions/{}/daniel/hello" version="2025-07-24" swagger="mgmt-plane/keyvault/ResourceProviders/Microsoft.KeyVault/Paths/L3N1YnNjcmlwdGlvbnMve3N1YnNjcmlwdGlvbklkfS9kYW5pZWwvaGVsbG8=/V/MjAyNS0wNy0yNA=="/>
+    <command name="show" version="2025-04-01">
+      <resource id="/subscriptions/{}/daniel/hello" version="2025-04-01" swagger="mgmt-plane/keyvault/ResourceProviders/Microsoft.KeyVault/Paths/L3N1YnNjcmlwdGlvbnMve3N1YnNjcmlwdGlvbklkfS9kYW5pZWwvaGVsbG8=/V/MjAyNS0wNC0wMQ=="/>
       <argGroup name="">
         <arg type="SubscriptionId" var="$Path.subscriptionId" options="subscription" required="True" idPart="subscription"/>
       </argGroup>
@@ -15,7 +15,7 @@
             </path>
             <query>
               <const readOnly="True" const="True" type="string" name="api-version" required="True">
-                <default value="&quot;2025-07-24&quot;"/>
+                <default value="&quot;2025-04-01&quot;"/>
                 <enum>
                   <item value="&quot;2024-01-01&quot;"/>
                 </enum>
